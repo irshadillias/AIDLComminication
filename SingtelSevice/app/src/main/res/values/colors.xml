@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#292631</color>
+    <color name="colorPrimaryDark">#68666e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextDark">#424242</color>
+    <color name="colorTextLight">#FFF</color>
+    <color name="colorTextShadowDark">#000</color>
+    <color name="colorTextShadowLight">#FFF</color>
+    <color name="colorRatingBarNormal">#ffd700</color>
+    <color name="colorRatingBarHighlighted">#e5c100</color>
+    <color name="blue">#ff1d34be</color>
+    <color name="green">#ff228B22</color>
+    <color name="orange">#FF6600</color>
+    <color name="red">#ffbe224e</color>
+
+    <color name="profile_item_name">#757575</color>
+    <color name="profile_item_info">#7c7d88</color>
+    <color name="detail_list_item_view">#cccccc</color>
+    <color name="detail_list_item_text">#111</color>
+
+    <color name="bg_activity_detail">#292631</color>
+    <color name="text_desc_activity_detail">#68666e</color>
+    <color name="text_runtime_activity_detail">#7f7e83</color>
+    <color name="text_more_activity_detail">#7bc9c2</color>
+    <color name="btn_shine">#f64959</color>
+    <color name="btn_shine_fill">#FF6666</color>
+
+    <color name="light_blue">#6cc4fc</color>
+
+</resources>
