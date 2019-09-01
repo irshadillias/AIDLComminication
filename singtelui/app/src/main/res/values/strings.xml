@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">singtelui</string>
+    <string name="number_one">Enter First Number</string>
+    <string name="enter_key">Enter Key</string>
+    <string name="number_two">Enter Second Number</string>
+    <string name="number_addition">Add</string>
+    <string name="number_sub">Subtract</string>
+    <string name="number_multiply">Multiply</string>
+    <string name="number_pw">Pow</string>
+    <string name="convert">Convert</string>
+    <string name="json_conersion">Json Conversion</string>
+
+
+</resources>
