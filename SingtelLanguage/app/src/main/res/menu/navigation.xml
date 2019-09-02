@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/josnconvertor"
+        android:icon="@drawable/ic_jsonconverter"
+        android:title="Json Converter"/>
+
+    <item
+        android:id="@+id/calculator"
+        android:icon="@drawable/ic_calculater"
+        android:title="Calculation"/>
+
+</menu>
+
