@@ -9,24 +9,24 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.observers.DisposableObserver;
 import singtel.irshadillias.service.interview.data.local.entity.ConvertJsonReponse;
 import singtel.irshadillias.service.interview.data.local.entity.JsonResult;
-import singtel.irshadillias.service.interview.data.remote.repository.MovieRepository;
+import singtel.irshadillias.service.interview.data.remote.repository.SingtelRepository;
 import singtel.irshadillias.service.interview.data.remote.webrequest.ConvertJsonRequst;
 import singtel.irshadillias.service.interview.utilities.SingleLiveEvent;
 
 public class HomeViewModel extends ViewModel {
     private MutableLiveData<JsonResult> convertJosnResult = new MutableLiveData<>();
     private SingleLiveEvent<Void> errorMessageRecieved = new SingleLiveEvent<>();
-    private MovieRepository movierepo;
+    private SingtelRepository singtelrepo;
 
     @Inject
-    HomeViewModel(MovieRepository artRepository) {
-        this.movierepo = artRepository;
+    HomeViewModel(SingtelRepository artRepository) {
+        this.singtelrepo = artRepository;
     }
 
     public void getConvertJson(String data){
         ConvertJsonRequst req = new ConvertJsonRequst();;;
         req.setData(data);
-        movierepo.invokeConvertJosn(req).subscribeWith(getMovieDetailObserver());
+        singtelrepo.invokeConvertJosn(req).subscribeWith(getMovieDetailObserver());
     }
     private DisposableObserver<ConvertJsonReponse> getMovieDetailObserver(){
         return new DisposableObserver<ConvertJsonReponse>() {

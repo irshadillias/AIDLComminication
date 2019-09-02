@@ -9,6 +9,7 @@
     <string name="number_pw">Pow</string>
     <string name="convert">Convert</string>
     <string name="json_conersion">Json Conversion</string>
+    <string name="calculation">Calculator</string>
 
 
 </resources>

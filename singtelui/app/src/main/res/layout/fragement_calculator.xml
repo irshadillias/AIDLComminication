@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/title"
         android:layout_marginTop="50dp"
-        android:text="@string/json_conersion">
+        android:text="@string/calculation">
 
     </TextView>
     <EditText
