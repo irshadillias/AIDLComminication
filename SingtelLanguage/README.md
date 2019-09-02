@@ -1,4 +1,4 @@
-# Android Movie Application 
+# Singtel laguage chnaging applcation 
 
 # Highlights
 
@@ -16,9 +16,6 @@ The whole application is built based on the MVVM architectural pattern.
 # Application Architecture
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*OqeNRtyjgWZzeUifrQT-NA.png)
 
-# Screenshots
-<img src="/screenshots/screenshot_mainpage.png" width="346" height="615" alt="Home"/> 
-<img src="/screenshots/screenshot_details.png" width="346" height="615" alt="Home"/>
 
 # Programming Practices Followed
 a) Android Architectural Components <br/>

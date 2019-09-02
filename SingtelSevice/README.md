@@ -1,4 +1,4 @@
-# Android Movie Application 
+# Singtel AIDL server application 
 
 # Highlights
 
