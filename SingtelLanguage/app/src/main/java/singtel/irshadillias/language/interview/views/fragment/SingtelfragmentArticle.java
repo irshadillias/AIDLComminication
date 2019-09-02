@@ -1,6 +1,12 @@
 package singtel.irshadillias.language.interview.views.fragment;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+
+import com.ice.restring.Restring;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import singtel.irshadillias.language.interview.R;
 import singtel.irshadillias.language.interview.databinding.FragementArticleBinding;
@@ -18,6 +24,12 @@ public class SingtelfragmentArticle extends BaseFragment<HomeViewModel,
     }
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
     public Class<HomeViewModel> getViewModel() {
         return HomeViewModel.class;
     }
@@ -25,5 +37,11 @@ public class SingtelfragmentArticle extends BaseFragment<HomeViewModel,
     @Override
     public int getLayoutRes() {
         return R.layout.fragement_article;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
     }
 }

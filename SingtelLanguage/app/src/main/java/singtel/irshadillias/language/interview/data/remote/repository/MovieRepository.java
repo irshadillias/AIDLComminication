@@ -1,21 +1,16 @@
-package singtel.irshadillias.service.interview.data.remote.repository;
+package singtel.irshadillias.language.interview.data.remote.repository;
 
 import android.annotation.SuppressLint;
-import android.arch.lifecycle.LiveData;
-import android.support.annotation.NonNull;
 
-import java.util.List;
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
-import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import retrofit2.Call;
 import retrofit2.Retrofit;
-import singtel.irshadillias.service.interview.data.local.dao.MovieDao;
-import singtel.irshadillias.service.interview.data.local.entity.ConvertJsonReponse;
-import singtel.irshadillias.service.interview.data.remote.WebApiServices;
-import singtel.irshadillias.service.interview.data.remote.webrequest.ConvertJsonRequst;
+import singtel.irshadillias.language.interview.data.local.dao.MovieDao;
+import singtel.irshadillias.language.interview.data.local.entity.ConvertJsonReponse;
+import singtel.irshadillias.language.interview.data.remote.WebApiServices;
+import singtel.irshadillias.language.interview.data.remote.webrequest.ConvertJsonRequst;
 
 public class MovieRepository {
 
