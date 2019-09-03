@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Point;
 import android.os.Build;
+import android.os.Environment;
 import android.view.Display;
 import android.view.WindowManager;
 
@@ -156,4 +157,15 @@ public class BaseUtils {
     public static boolean isAtLeastVersion(int version) {
         return Build.VERSION.SDK_INT >= version;
     }
+
+
+    public static boolean isSDCardPresent() {
+        if (Environment.getExternalStorageState().equals(
+                Environment.MEDIA_MOUNTED)) {
+            return true;
+        }
+        return false;
+    }
+
 }
+

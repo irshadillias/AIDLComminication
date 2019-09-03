@@ -114,6 +114,8 @@ dependencies {
     // RxJava / RxAndroid
     implementation 'io.reactivex.rxjava2:rxjava:2.1.10'
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'pub.devrel:easypermissions:0.2.0'
+    implementation 'com.opencsv:opencsv:3.9'
 
     // Dagger 2
     implementation "com.google.dagger:dagger:$DAGGER_VERSION"
@@ -148,6 +150,7 @@ dependencies {
     implementation "com.an.customfontview:customfont:$CUSTOM_FONT_VERSION"
 
     implementation "com.squareup.okhttp3:mockwebserver:3.8.1"
+   // implementation 'com.github.kk121:File-Loader:1.2'
 
     androidTestImplementation 'com.android.support:support-annotations:27.1.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

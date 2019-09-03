@@ -29,6 +29,7 @@
     <string name="languagetitle">IN : Chnage Language option</string>
     <string name="change_it">IN : Change It </string>
     <string name="articalecontent">I am Inonesian content for Singtel</string>
+    <string name="write_file">IN : This app needs access to your file storage so that it can write files.</string>
 
     <string-array name="language_option">
         <item>IN : English</item>

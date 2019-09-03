@@ -30,6 +30,7 @@
     <string name="languagetitle">ES : Chnage Language option</string>
     <string name="change_it">ES : Change It </string>
     <string name="articalecontent">I am Spanish content for Singtel</string>
+    <string name="write_file">ES :This app needs access to your file storage so that it can write files.</string>
 
     <string-array name="language_option">
         <item>ES : English</item>
